@@ -5,57 +5,38 @@ This project implements a complete Intelligent Document Processing (IDP) pipelin
 The system combines Computer Vision, OCR, Deep Learning, Fuzzy Logic, and NLP models to automatically analyze and understand document images.
 
 Features
-
 The pipeline performs the following tasks:
-
 Image Preprocessing
-
 Reads document images
-
 Applies rotation correction
-
 Enhances images for OCR
-
 CNN Document Classification
-
 Classifies document images into predefined classes
-
 Uses convolutional neural networks for feature extraction
 
 OCR Text Extraction
-
 Extracts text from document images
-
 Converts extracted text into structured format (CSV)
 
 Orientation Detection
-
 Detects whether a document image is rotated
-
 Suggests required rotation angle
 
 LSTM Text Classification
-
 Performs document classification based on extracted text
-
 Uses bidirectional LSTM architecture
 
 Fuzzy Logic Classification
-
 Combines multiple signals to improve classification reliability
 
 Document Summarization
-
 Generates concise summaries of extracted document text
-
 Uses transformer-based NLP models
 
 Document Translation
-
 Translates extracted text into different languages
 
 Complete IDP Pipeline
-
 Integrates all modules into a single automated workflow
 
 Project Architecture
